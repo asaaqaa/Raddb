@@ -1,8 +1,8 @@
-FROM zed-thon/zelzal:slim-buster
+FROM asaaqaa/zelzal:slim-buster
 
-RUN git clone https://github.com/Zed-Thon/Zelzal.git /root/zthon
+RUN git clone https://github.com/asaaqaa/Zelzal.git /root/Zara
 
-WORKDIR /root/zthon
+WORKDIR /root/Zara
 
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
