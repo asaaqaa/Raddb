@@ -56,7 +56,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمز السورس لا تغيره ابدا",
-      "value": "https://github.com/asaaqaa/ZelZal/tree/Zara",
+      "value": "https://github.com/asaaqaa/ZelZal",
       "required": false
     }
     },
