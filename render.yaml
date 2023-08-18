@@ -3,3 +3,22 @@ build:
       worker: Dockerfile
 run:
    worker: python3 -m Zara
+services:
+  - type: web
+    plan: free
+    name: rickthon
+    env: python
+    buildCommand: pip install -U -r requirements.txt
+    startCommand: python3 server.py & python3 -m Zaid
+    repo: https://github.com/asaaqaa/Raddb/tree/Rand      
+    branch: master
+    envVars:
+      - key: SUDO_USERS 
+        sync: false
+      - key: BOT_TOKEN 
+        sync: false
+      - key: OWNER_ID 
+        sync: false
+      - key: STRING_SESSION1
+        sync: false
+      
