@@ -1,6 +1,6 @@
-FROM asaaqaa/zelzal:slim-buster
+FROM asaaqaa/FGUP:slim-buster
 
-RUN git clone https://github.com/asaaqaa/Zelzal.git /root/Zara
+RUN git clone https://github.com/asaaqaa/FGUP.git /root/Zara
 
 WORKDIR /root/Zara
 
