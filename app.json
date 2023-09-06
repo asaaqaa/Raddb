@@ -122,17 +122,8 @@
 
     },
 
-  "addons": [{
-
-    "plan":"herokuconnect:demo",
-    "plan":"heroku-postgresql", 
-    "options": {
-
-      "version": "12"
-
-    }
-
-  }],
+  "addons": ["heroku-postgresql", "herokuconnect:demo"], 
+ 
 
   "buildpacks": [{
 
