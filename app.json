@@ -124,7 +124,7 @@
 
   "addons": [{
 
-    "plan": "heroku-kafka",
+    "plan":["heroku-postgresql","herokuconnect:demo"],
 
     "options": {
 
