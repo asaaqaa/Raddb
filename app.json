@@ -124,7 +124,7 @@
 
   "addons": [{
 
-    "plan":["heroku-postgresql","herokuconnect:demo"],
+    "plan":"herokuconnect:demo",
 
     "options": {
 
