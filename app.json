@@ -16,7 +16,7 @@
 
   ],
 
-  "repository": "https://github.com/Tepthonee/PPF22",
+  "repository": "https://github.com/asaaqaa/FGUP",
 
   "website": "#TODO",
 
@@ -124,7 +124,7 @@
 
   "addons": [{
 
-    "plan": "heroku-postgresql",
+    "plan": "heroku-kafka",
 
     "options": {
 
